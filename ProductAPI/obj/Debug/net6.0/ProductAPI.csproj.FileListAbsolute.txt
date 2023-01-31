@@ -1,0 +1,157 @@
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\appsettings.json
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.exe
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.deps.json
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.runtimeconfig.json
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\ref\ProductAPI.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.pdb
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\EntityFramework.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.nativelibrary.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\DotNetCourse\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.csproj.AssemblyReference.cache
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.AssemblyInfoInputs.cache
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.AssemblyInfo.cs
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.csproj.CoreCompileInputs.cache
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\scopedcss\bundle\ProductAPI.styles.css
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.csproj.CopyComplete
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.dll
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ref\ProductAPI.dll
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.pdb
+C:\DotNetCourse\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.genruntimeconfig.cache
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\appsettings.json
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.exe
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.deps.json
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.runtimeconfig.json
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\ProductAPI.pdb
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\EntityFramework.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.nativelibrary.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.csproj.AssemblyReference.cache
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.AssemblyInfoInputs.cache
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.AssemblyInfo.cs
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.csproj.CoreCompileInputs.cache
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\scopedcss\bundle\ProductAPI.styles.css
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.csproj.CopyComplete
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\refint\ProductAPI.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.pdb
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ProductAPI.genruntimeconfig.cache
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\ref\ProductAPI.dll
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets\msbuild.ProductAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.ProductAPI.props
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProductAPI.props
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProductAPI.props
+C:\Projects\Pet Projects\EAApp\ProductAPI\obj\Debug\net6.0\staticwebassets.pack.json
