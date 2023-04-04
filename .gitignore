@@ -47,3 +47,4 @@ TestResult.xml
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
+/ProductAPI/.vs/ProductAPI/v17/TestStore/0/000.testlog
