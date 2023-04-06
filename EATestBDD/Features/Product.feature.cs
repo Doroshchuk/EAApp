@@ -75,6 +75,30 @@ namespace EATestBDD.Features
             testRunner.CollectScenarioErrors();
         }
         
+        public virtual void FeatureBackground()
+        {
+#line 4
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Name",
+                        "Description",
+                        "Price",
+                        "ProductType"});
+            table1.AddRow(new string[] {
+                        "Monitor",
+                        "HD monitor",
+                        "400",
+                        "MONITOR"});
+            table1.AddRow(new string[] {
+                        "Headphones",
+                        "Noise cancellation",
+                        "300",
+                        "PERIPHARALS"});
+#line 5
+ testRunner.Given("I cleanup following data", ((string)(null)), table1, "Given ");
+#line hidden
+        }
+        
         void System.IDisposable.Dispose()
         {
             this.TestTearDown();
@@ -90,7 +114,7 @@ namespace EATestBDD.Features
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create product and verify the details", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 5
+#line 11
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -110,37 +134,112 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 6
+#line 4
+this.FeatureBackground();
+#line hidden
+#line 12
  testRunner.Given("I click the Product menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 7
+#line 13
  testRunner.And("I click the \"Create\" link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                             "Name",
                             "Description",
                             "Price",
                             "ProductType"});
-                table1.AddRow(new string[] {
+                table2.AddRow(new string[] {
                             "Headphones",
                             "Noise cancellation",
                             "300",
                             "PERIPHARALS"});
-#line 8
- testRunner.And("I create product with following details", ((string)(null)), table1, "And ");
+#line 14
+ testRunner.And("I create product with following details", ((string)(null)), table2, "And ");
 #line hidden
-#line 11
+#line 17
  testRunner.When("I click the Details link of the newly created product", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 12
+#line 18
  testRunner.Then("I see all the product details are created as expected", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 13
+#line 19
  testRunner.And("I delete the product Headphones for cleanup", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="Edit product and verify if it is updated")]
+        [Xunit.TraitAttribute("FeatureTitle", "Product")]
+        [Xunit.TraitAttribute("Description", "Edit product and verify if it is updated")]
+        [Xunit.TraitAttribute("Category", "mytag")]
+        public virtual void EditProductAndVerifyIfItIsUpdated()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "mytag"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit product and verify if it is updated", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 22
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 4
+this.FeatureBackground();
+#line hidden
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Name",
+                            "Description",
+                            "Price",
+                            "ProductType"});
+                table3.AddRow(new string[] {
+                            "Monitor",
+                            "HD monitor",
+                            "400",
+                            "MONITOR"});
+#line 23
+ testRunner.Given("I ensure the following product is created", ((string)(null)), table3, "Given ");
+#line hidden
+#line 26
+ testRunner.Given("I click the Product menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 27
+ testRunner.When("I click the Edit link of the newly created product", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Name",
+                            "Description",
+                            "Price",
+                            "ProductType"});
+                table4.AddRow(new string[] {
+                            "Monitor",
+                            "HD Resolution monitor",
+                            "500",
+                            "MONITOR"});
+#line 28
+ testRunner.And("I edit the product details with following", ((string)(null)), table4, "And ");
+#line hidden
+#line 31
+ testRunner.And("I click the Details link of the newly created product", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 32
+ testRunner.Then("I see all the product details are created as expected", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

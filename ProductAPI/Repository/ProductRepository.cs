@@ -11,6 +11,8 @@ namespace ProductAPI.Repository
         void DeleteProduct(string name);
         List<Product> GetAllProducts();
         Product GetProductById(int id);
+        Product GetProductByName(string name);
+        bool DoesProductExist(string name);
         Product UpdateProduct(Product product);
     }
 
@@ -59,6 +61,16 @@ namespace ProductAPI.Repository
             var product = _context.Products.FirstOrDefault(p => p.Name == name);
             _context.Products.Remove(product);
             _context.SaveChanges();
+        }
+
+        public Product GetProductByName(string name)
+        {
+            return _context.Products.FirstOrDefault(p => p.Name == name);
+        }
+
+        public bool DoesProductExist(string name)
+        {
+            return _context.Products.Any(p => p.Name == name);
         }
     }
 }

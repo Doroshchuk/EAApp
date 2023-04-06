@@ -3,6 +3,7 @@
     public interface IProductPage
     {
         void FillInProductDetails(Product product);
+        void EditProduct(Product product);
         Product GetProductDetails();
     }
 
@@ -25,6 +26,8 @@
 
         public IWebElement CreateButton => _driver.FindElement(By.Id("Create"));
 
+        public IWebElement SaveButton => _driver.FindElement(By.Id("Save"));
+
         public void FillInProductDetails(Product product)
         {
             NameTextField.SendKeys(product.Name);
@@ -44,6 +47,14 @@
                 ProductType = (ProductType)Enum.Parse(typeof(ProductType),
                                     ProductTypeDropDownList.GetAttribute("innerText"))
             };
+        }
+
+        public void EditProduct(Product product)
+        {
+            NameTextField.ClearAndEnterText(product.Name);
+            DescriptionTextField.ClearAndEnterText(product.Description);
+            PriceTextField.ClearAndEnterText(product.Price.ToString());
+            SaveButton.Click();
         }
     }
 }

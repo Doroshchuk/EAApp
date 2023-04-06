@@ -25,7 +25,19 @@ namespace EATestBDD.StepDefinitions
         {
             var product = table.CreateInstance<Product>();
             _productRepository.AddProduct(product);
+            _scenarioContext.Set<Product>(product);
         }
 
+        [Given(@"I cleanup following data")]
+        public void GivenICleanupFollowingData(Table table)
+        {
+            var products = table.CreateSet<Product>();
+            foreach(var product in products)
+            {
+                var doesProductExist = _productRepository.DoesProductExist(product.Name);
+                if (doesProductExist)
+                    _productRepository.DeleteProduct(product.Name);
+            }
+        }
     }
 }

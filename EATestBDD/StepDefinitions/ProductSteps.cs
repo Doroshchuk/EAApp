@@ -54,5 +54,12 @@ namespace EATestBDD.StepDefinitions
                             .BeEquivalentTo(product, option => option.Excluding(x => x.Id));
         }
 
+        [When(@"I edit the product details with following")]
+        public void WhenIEditTheProductDetailsWithFollowing(Table table)
+        {
+            var product = table.CreateInstance<Product>();
+            _productPage.EditProduct(product);
+            _scenarioContext.Set<Product>(product);
+        }
     }
 }
