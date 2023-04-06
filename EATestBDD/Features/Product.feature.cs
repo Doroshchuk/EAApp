@@ -130,11 +130,17 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I create product with following details", ((string)(null)), table1, "And ");
 #line hidden
 #line 11
- testRunner.When("I click the details link of the newly created product", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I click the Details link of the newly created product", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 12
  testRunner.Then("I see all the product details are created as expected", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
+#line 13
+ testRunner.And("I delete the product Headphones for cleanup", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
             }
             this.ScenarioCleanup();
         }

@@ -8,5 +8,7 @@ Scenario: Create product and verify the details
 	And I create product with following details
 		| Name       | Description        | Price | ProductType |
 		| Headphones | Noise cancellation | 300   | PERIPHARALS |
-	When I click the details link of the newly created product
+	When I click the Details link of the newly created product
+	Then I see all the product details are created as expected
+	And I delete the product Headphones for cleanup
 	Then I see all the product details are created as expected

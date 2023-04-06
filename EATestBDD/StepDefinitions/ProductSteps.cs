@@ -1,4 +1,6 @@
-﻿namespace EATestBDD.StepDefinitions
+﻿using ProductAPI.Repository;
+
+namespace EATestBDD.StepDefinitions
 {
     [Binding]
     public sealed class ProductSteps
@@ -6,12 +8,14 @@
         private readonly ScenarioContext _scenarioContext;
         private readonly IHomePage _homePage;
         private readonly IProductPage _productPage;
+        private readonly IProductRepository _productRepository;
 
-        public ProductSteps(ScenarioContext scenarioContext, IHomePage homePage, IProductPage productPage)
+        public ProductSteps(ScenarioContext scenarioContext, IHomePage homePage, IProductPage productPage, IProductRepository productRepository)
         {
             _scenarioContext = scenarioContext;
             _homePage = homePage;
             _productPage = productPage;
+            _productRepository = productRepository;
         }
 
         [Given(@"I click the Product menu")]
@@ -34,11 +38,11 @@
             _scenarioContext.Set<Product>(product);
         }
 
-        [When(@"I click the details link of the newly created product")]
-        public void WhenIClickTheDetailsLinkOfTheNewlyCreatedProduct()
+        [When(@"I click the (.*) link of the newly created product")]
+        public void WhenIClickTheDetailsLinkOfTheNewlyCreatedProduct(string operation)
         {
             var product = _scenarioContext.Get<Product>();
-            _homePage.PerformClickOnSpecialValue(product.Name, "Details");
+            _homePage.PerformClickOnSpecialValue(product.Name, operation);
         }
 
         [Then(@"I see all the product details are created as expected")]
