@@ -9,7 +9,9 @@ namespace EATestFramework.Driver
     public enum BrowserType
     {
         Chrome,
-        Firefox
+        Firefox,
+        Safari,
+        Edge
     }
 
     public class BrowserDriver : IBrowserDriver
