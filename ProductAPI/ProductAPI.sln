@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EATestProject", "..\EATestP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EATestBDD", "..\EATestBDD\EATestBDD.csproj", "{D713236A-8085-46E5-A8AA-7F853A48DB9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAIntegrationTest", "..\EAIntegrationTest\EAIntegrationTest.csproj", "{F49B0923-2515-4691-968D-9C7DCFD56704}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D713236A-8085-46E5-A8AA-7F853A48DB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D713236A-8085-46E5-A8AA-7F853A48DB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D713236A-8085-46E5-A8AA-7F853A48DB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49B0923-2515-4691-968D-9C7DCFD56704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49B0923-2515-4691-968D-9C7DCFD56704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49B0923-2515-4691-968D-9C7DCFD56704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49B0923-2515-4691-968D-9C7DCFD56704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

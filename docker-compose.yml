@@ -53,6 +53,15 @@ services:
     networks:
       - ea_network
 
+  ea_int_test:
+    image: ea_int_test
+    container_name: eaintegrationtest
+    build:
+      context: .
+      dockerfile: EAIntegrationTest/Dockerfile
+    networks:
+      - ea_network
+
   node-docker:
     image: selenium/node-docker:4.8.3-20230404
     volumes:
