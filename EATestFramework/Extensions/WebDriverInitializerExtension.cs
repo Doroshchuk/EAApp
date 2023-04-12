@@ -10,7 +10,8 @@ namespace EATestFramework.Extensions
         public static IServiceCollection UseWebDriverInitializer(
             this IServiceCollection services)
         {
-            services.AddSingleton(ReadConfig("appsettings.json"));
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            services.AddSingleton(ReadConfig($"appsettings.{environmentName}.json"));
 
             return services;
         }

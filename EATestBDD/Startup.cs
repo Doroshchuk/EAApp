@@ -13,9 +13,9 @@ namespace EATestBDD
         public static IServiceCollection CreateServices()
         {
             var services = new ServiceCollection();
-
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
             var config = new ConfigurationBuilder()
-               .AddJsonFile("appsettings.json").Build();
+               .AddJsonFile($"appsettings.{environmentName}.json").Build();
             string? connectionString = config.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<ProductDbContext>(option =>

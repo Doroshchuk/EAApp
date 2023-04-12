@@ -50,6 +50,8 @@ services:
     depends_on:
       - ea_api
       - selenium-hub
+    environment:
+      - ASPNETCORE_ENVIRONMENT=remote
     networks:
       - ea_network
 

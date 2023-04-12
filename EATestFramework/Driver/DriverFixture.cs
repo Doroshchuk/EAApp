@@ -10,7 +10,7 @@ namespace EATestFramework.Driver
 {
     public class DriverFixture : IDriverFixture, IDisposable
     {
-        RemoteWebDriver _driver;
+        IWebDriver _driver;
         private readonly TestSettings _testSettings;
         private readonly IBrowserDriver _browserDriver;
 
@@ -19,7 +19,10 @@ namespace EATestFramework.Driver
         {
             _testSettings = testSettings;
             _browserDriver = browserDriver;
-            _driver = new RemoteWebDriver(_testSettings.SeleniumGridUrl, GetBrowserOptions());
+            if (_testSettings.ExecutionType == ExecutionType.Local)
+                _driver = GetWebDriver();
+            else 
+                _driver = new RemoteWebDriver(_testSettings.SeleniumGridUrl, GetBrowserOptions());
             _driver.Navigate().GoToUrl(testSettings.ApplicationUrl);
         }
 
