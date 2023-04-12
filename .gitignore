@@ -49,3 +49,7 @@ TestResult.xml
 !**/packages/build/
 
 assets/
+**/node_modules
+**/.config
+package-lock.json
+package.json
